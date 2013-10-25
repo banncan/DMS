@@ -16,7 +16,13 @@ class EditorSettings {
 
 
 	function __construct(){
-
+		// $this->settings['configuration'] = array(
+		// 			'name' 	=> 'Admin Shortcuts',
+		// 			'icon'	=> 'icon-cog',
+		// 			'pos'	=> 1,
+		// 			'opts' 	=> $this->config()
+		// 		);
+	
 		$this->settings['basic_settings'] = array(
 			'name' 	=> __( 'Site Images', 'pagelines' ),
 			'icon'	=> 'icon-picture',
@@ -301,7 +307,7 @@ class EditorSettings {
 			array(
 				'key'	=> 'debug_settings',
 				'type'	=> 'multi',
-				'title'	=> __( 'Debug Options', 'pagelines' ),
+				'title'	=> 'Debug Options',
 				'opts'	=> array(
 					array(
 							'key'		=> 'enable_debug',
