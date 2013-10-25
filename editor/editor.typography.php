@@ -66,7 +66,7 @@ class EditorTypography{
 	function add_settings( $settings ){
 
 		$settings['typography'] = array(
-				'name' 	=> 'Typography',
+				'name' 	=> __( 'Typography', 'pagelines' ),
 				'icon'	=> 'icon-font',
 				'pos'	=> 3,
 				'opts' 	=> $this->options()
